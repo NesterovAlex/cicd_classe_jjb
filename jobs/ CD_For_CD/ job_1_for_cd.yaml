@@ -1,3 +1,6 @@
 - job:
-    name: job_1_for_cd
-    project-type: folder
+    name:  CD_For_CD/job_1_for_cd
+    project-type: freestyle
+
+    builders:
+        - shell: "echo bla-bla"
