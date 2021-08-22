@@ -6,7 +6,13 @@ pipeline {
         timestamps ()
     }
 
+    stages{
 
+        stage ('Test') {
+
+        }
+
+    }
 
 
 }
