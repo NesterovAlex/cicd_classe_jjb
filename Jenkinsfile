@@ -16,7 +16,7 @@ pipeline {
 
         stage ("Test") {
           steps (
-                sh 'ls -l'
+                sh (script: 'ls -l')
             )
         }
 
