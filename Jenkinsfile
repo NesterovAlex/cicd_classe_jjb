@@ -16,6 +16,12 @@ pipeline {
             )
         }
 
+        stage ("Body") {
+            steps (
+                git (url: 'https://github.com/NesterovAlex/cicd_classes_jjb.git')
+            )
+        }
+
         stage ("Test") {
           steps (
                 sh (script: 'ls -l')
