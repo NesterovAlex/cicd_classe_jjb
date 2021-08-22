@@ -9,9 +9,9 @@ pipeline {
     stages{
 
         stage ('Test') {
-          steps (
+          steps {
                 sh([script: 'echo hello'])
-            )
+            }
         }
 
     }
