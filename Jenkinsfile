@@ -3,20 +3,12 @@ pipeline {
     agent any
 
     options{
-        wrappers{
-            timestamps ()
-        }
+        timestamps ()
     }
 
     stages{
 
         stage ("Checkout") {
-            steps (
-                git (url: 'https://github.com/NesterovAlex/cicd_classes_jjb.git')
-            )
-        }
-
-        stage ("Body") {
             steps (
                 git (url: 'https://github.com/NesterovAlex/cicd_classes_jjb.git')
             )
