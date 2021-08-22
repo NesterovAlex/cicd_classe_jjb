@@ -8,13 +8,13 @@ pipeline {
 
     stages{
 
-        stage ("Checkout") {
+        stage ('Checkout') {
             steps (
                 git (url: 'https://github.com/NesterovAlex/cicd_classes_jjb.git')
             )
         }
 
-        stage ("Test") {
+        stage ('Test') {
           steps (
 
             )
