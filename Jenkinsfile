@@ -6,15 +6,7 @@ pipeline {
         timestamps ()
     }
 
-    stages{
 
-        stage ('Test') {
-          steps (
-                echo 'Hello World!'
-            )
-        }
-
-    }
 
 
 }
