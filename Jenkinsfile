@@ -10,7 +10,7 @@ pipeline {
 
         stage ("checkout") {
             steps (
-                git url: "https://github.com/NesterovAlex/cicd_classes_jjb.git"
+                git url: https://github.com/NesterovAlex/cicd_classes_jjb.git
             )
         }
 
