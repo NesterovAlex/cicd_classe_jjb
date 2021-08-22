@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Test') {
           steps {
-            sh 'echo hello'
+            sh 'ls -l'
           }
         }
 
