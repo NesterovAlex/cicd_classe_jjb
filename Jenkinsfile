@@ -3,7 +3,9 @@ pipeline {
     agent any
 
     options{
-        timestamps ()
+        wrappers{
+            timestamps ()
+        }
     }
 
     stages{
