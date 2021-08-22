@@ -10,7 +10,7 @@ pipeline {
 
         stage ('Test') {
           steps (
-                sh 'make check'
+                sh([script: 'echo hello'])
             )
         }
 
