@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Test') {
           steps {
-            sh 'jenkins-jobs --conf jenkins_job.ini test -r jobs/
+            sh 'jenkins-jobs --conf jenkins_job.ini test -r jobs/'
           }
         }
 
