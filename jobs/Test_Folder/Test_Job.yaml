@@ -1,0 +1,5 @@
+- job:
+    name: 'Test_Folder/JJB_Pipeline'
+    project-type: freestyle
+
+
